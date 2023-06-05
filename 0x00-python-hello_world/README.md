@@ -1,7 +1,7 @@
 # 0x00-python-hello_world
 
 ## Task 0
-- [ ] `0-run` Write a shell script that runs a Python script
+- [x] `0-run` Write a shell script that runs a Python script
 
 ## Task 1
 - [ ] `1-run_inline` Write a shell script that runs Python code
