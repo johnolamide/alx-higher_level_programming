@@ -19,7 +19,7 @@
 - [x] `5-print_string.py` print 3 times a string stored in the variable str, followed by its first 9 characters.
 
 ## Task 6
-- [ ] `6-concat.py`  print "Welcome to Holberton School!"
+- [x] `6-concat.py`  print "Welcome to Holberton School!"
 
 ## Task 7
 - [ ] `7-edges.py`
