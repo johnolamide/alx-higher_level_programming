@@ -16,7 +16,7 @@
 - [x] `4-print_float.py` print the float stored in the variable number with a precision of 2 digits
 
 ## Task 5
-- [ ] `5-print_string.py` print 3 times a string stored in the variable str, followed by its first 9 characters.
+- [x] `5-print_string.py` print 3 times a string stored in the variable str, followed by its first 9 characters.
 
 ## Task 6
 - [ ] `6-concat.py`  print "Welcome to Holberton School!"
