@@ -4,10 +4,10 @@
 - [x] `0-run` Write a shell script that runs a Python script
 
 ## Task 1
-- [ ] `1-run_inline` Write a shell script that runs Python code
+- [x] `1-run_inline` Write a shell script that runs Python code
 
 ## Task 2
-- [ ] `2-print.py` Write a Python script that prints exactly "Programming is like building a multilingual puzzle, followed by a new line
+- [x] `2-print.py` Write a Python script that prints exactly "Programming is like building a multilingual puzzle, followed by a new line
 
 ## Task 3
 - [ ] `3-print_number.py` print the integer stored in the variable number, followed by Battery street, followed by a new line.
