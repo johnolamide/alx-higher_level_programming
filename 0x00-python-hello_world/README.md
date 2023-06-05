@@ -22,7 +22,7 @@
 - [x] `6-concat.py`  print "Welcome to Holberton School!"
 
 ## Task 7
-- [ ] `7-edges.py`
+- [x] `7-edges.py`
 
 ## Task 8
 - [ ] `8-concat_edges.py` print "object-oriented programming with Python", followed by a new line.
