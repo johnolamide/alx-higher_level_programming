@@ -28,7 +28,7 @@
 - [x] `8-concat_edges.py` print "object-oriented programming with Python", followed by a new line.
 
 ## Task 9
-- [ ] `9-easter_egg.py`  prints “The Zen of Python”, by TimPeters, followed by a new line.
+- [x] `9-easter_egg.py`  prints “The Zen of Python”, by TimPeters, followed by a new line.
 
 ## Task 10
 - [ ] `10-check_cycle` `lists.h` Write a function in C that checks if a singly linked list has a cycle in it.
