@@ -1,7 +1,7 @@
 # 0x01-python-if_else_loop_functions
 
 ## Task 0
-- [ ] `0-postive_or_negative.py` print whether the number stored in the variable number is positive or negative.
+- [x] `0-postive_or_negative.py` print whether the number stored in the variable number is positive or negative.
 
 ## Task 1
 - [ ] `1-last_digit.py` print the last digit of the number stored in the variable number
