@@ -22,7 +22,7 @@
 -[x] `6-print_comb3.py` program that prints all possible different combinations of two digits.
 
 ## Task 7
-- [ ] `7-islower.py` function that checks for lowercase character.
+- [x] `7-islower.py` function that checks for lowercase character.
 
 ## Task 8
 - [ ] `8-uppercase.py` function that prints a string in uppercase followed by a new line.
