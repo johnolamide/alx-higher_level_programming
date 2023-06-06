@@ -25,7 +25,7 @@
 - [x] `7-islower.py` function that checks for lowercase character.
 
 ## Task 8
-- [ ] `8-uppercase.py` function that prints a string in uppercase followed by a new line.
+- [x] `8-uppercase.py` function that prints a string in uppercase followed by a new line.
 
 ## Task 9
 - [ ] `9-print_last_digit.py` function that prints the last digit of a number.
