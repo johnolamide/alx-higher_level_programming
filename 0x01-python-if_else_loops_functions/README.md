@@ -7,7 +7,7 @@
 - [x] `1-last_digit.py` print the last digit of the number stored in the variable number
 
 ## Task 2
-- [ ] `2-print_alphabet.py` program that prints the ASCII alphabet, in lowercase, not followed by a new line.
+- [x] `2-print_alphabet.py` program that prints the ASCII alphabet, in lowercase, not followed by a new line.
 
 ## Task 3
 - [ ] `3-print_alphabt.py` program that prints the ASCII alphabet, in lowercase, not followed by a new line.
