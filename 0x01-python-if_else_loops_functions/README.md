@@ -19,7 +19,7 @@
 - [x] `5-print_comb2.py` program that prints numbers from 0 to 99.
 
 ## Task 6
-- [ ] `6-print_comb3.py` program that prints all possible different combinations of two digits.
+-[x] `6-print_comb3.py` program that prints all possible different combinations of two digits.
 
 ## Task 7
 - [ ] `7-islower.py` function that checks for lowercase character.
