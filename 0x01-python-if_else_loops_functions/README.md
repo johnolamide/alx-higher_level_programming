@@ -37,7 +37,7 @@
 - [x] `11-pow.py` function that computes a to the power of b and return the value.
 
 ## Task 12
-- [ ] `12-fizzbuzz.py` function that prints the numbers from 1 to 100 separated by a space.
+- [x] `12-fizzbuzz.py` function that prints the numbers from 1 to 100 separated by a space.
 
 ## Task 13
 - [ ] `13-insert_number.c` `lists.h` function in C that inserts a number into a sorted singly linked list.
