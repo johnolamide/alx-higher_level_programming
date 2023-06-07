@@ -34,7 +34,7 @@
 - [x] `10-add.py` function that adds two integers and returns the result.
 
 ## Task 11
-- [ ] `11-pow.py` function that computes a to the power of b and return the value.
+- [x] `11-pow.py` function that computes a to the power of b and return the value.
 
 ## Task 12
 - [ ] `12-fizzbuzz.py` function that prints the numbers from 1 to 100 separated by a space.
