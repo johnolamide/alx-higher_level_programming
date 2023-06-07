@@ -31,7 +31,7 @@
 - [x] `9-print_last_digit.py` function that prints the last digit of a number.
 
 ## Task 10
-- [ ] `10-add.py` function that adds two integers and returns the result.
+- [x] `10-add.py` function that adds two integers and returns the result.
 
 ## Task 11
 - [ ] `11-pow.py` function that computes a to the power of b and return the value.
