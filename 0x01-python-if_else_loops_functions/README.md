@@ -40,4 +40,4 @@
 - [x] `12-fizzbuzz.py` function that prints the numbers from 1 to 100 separated by a space.
 
 ## Task 13
-- [ ] `13-insert_number.c` `lists.h` function in C that inserts a number into a sorted singly linked list.
+- [x] `13-insert_number.c` `lists.h` function in C that inserts a number into a sorted singly linked list.
