@@ -28,7 +28,7 @@
 - [x] `8-uppercase.py` function that prints a string in uppercase followed by a new line.
 
 ## Task 9
-- [ ] `9-print_last_digit.py` function that prints the last digit of a number.
+- [x] `9-print_last_digit.py` function that prints the last digit of a number.
 
 ## Task 10
 - [ ] `10-add.py` function that adds two integers and returns the result.
