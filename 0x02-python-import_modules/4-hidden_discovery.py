@@ -5,7 +5,7 @@ if __name__ == "__main__":
     nnames = []
     for name in names:
         if (name[:2] != "__"):
-            nnames.append(name)
+            nnames += name
     nnames.sort()
     for name in nnames:
         print("{:s}\n".format(name))
