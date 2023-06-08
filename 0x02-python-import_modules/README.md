@@ -17,7 +17,7 @@
 > the list of its arguments.
 
 ## Task 3
-- [ ] `3-infinite_add.py`
+- [x] `3-infinite_add.py`
 > Write a program that prints the result of the 
 > addition of all arguments
 
