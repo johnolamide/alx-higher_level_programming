@@ -12,7 +12,7 @@
 > calculator_1.py, does some Maths, and prints the result.
 
 ## Task 2
-- [ ] `2-args.py`
+- [x] `2-args.py`
 > Write a program that prints the number of and 
 > the list of its arguments.
 
