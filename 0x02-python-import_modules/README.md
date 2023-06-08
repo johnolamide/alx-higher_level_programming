@@ -22,7 +22,7 @@
 > addition of all arguments
 
 ## Task 4
-- [ ] `4-hidden_discovery.py`
+- [x] `4-hidden_discovery.py`
 > Write a program that prints all the names defined by 
 > the compiled module hidden_4.pyc
 
