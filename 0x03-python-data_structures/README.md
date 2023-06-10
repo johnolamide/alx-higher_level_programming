@@ -14,7 +14,7 @@
 > at a specific position (like in C).
 
 ## Task 3
-- [ ] `3-print_reversed_list_integer.py`
+- [x] `3-print_reversed_list_integer.py`
 > Write a function that prints all integers of a list,
 > in reverse order.
 
