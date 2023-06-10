@@ -5,7 +5,7 @@
 > Write a function that prints all integers of a list.
 
 ## Task 1
-- [ ] `1-element_at.py`
+- [x] `1-element_at.py`
 > Write a function that retrieves an element from a list like in C.
 
 ## Task 2
