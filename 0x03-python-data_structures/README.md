@@ -25,7 +25,7 @@
 > list (like in C).
 
 ## Task 5
-- [ ] `5-no_c.py`
+- [x] `5-no_c.py`
 > Write a function that prints a matrix of integers.
 
 ## Task 6
