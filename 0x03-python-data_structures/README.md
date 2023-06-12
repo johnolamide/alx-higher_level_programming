@@ -54,7 +54,7 @@
 > Write a function that deletes the item at a specific position in a list.
 
 ## Task 12
-- [ ] `12-switch.py`
+- [x] `12-switch.py`
 > Complete the source code in order to switch value of a and b
 
 ## Task 13
