@@ -58,5 +58,5 @@
 > Complete the source code in order to switch value of a and b
 
 ## Task 13
-- [ ] `13-is_palindrome.c` `lists.h`
+- [x] `13-is_palindrome.c` `lists.h`
 > Write a function in C that checks if a singly linked list is a palindrome.
