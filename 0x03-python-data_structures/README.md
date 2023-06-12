@@ -33,7 +33,7 @@
 > Write a function that prints a matrix of integers.
 
 ## Task 7
-- [ ] `7-add_tuple.py`
+- [x] `7-add_tuple.py`
 > Write a function that adds 2 tuples.
 
 ## Task 8
