@@ -46,7 +46,7 @@
 > Write a function that finds the biggest integer of a list.
 
 ## Task 10
-- [ ] `10-divisible_by_2.py`
+- [x] `10-divisible_by_2.py`
 > Write a function that finds all multiples of 2 in a list.
 
 ## Task 11
