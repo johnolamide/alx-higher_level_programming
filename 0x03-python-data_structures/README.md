@@ -42,7 +42,7 @@
 > of a string and its first character.
 
 ## Task 9
-- [ ] `9-max_integer.py`
+- [x] `9-max_integer.py`
 > Write a function that finds the biggest integer of a list.
 
 ## Task 10
