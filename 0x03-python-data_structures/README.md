@@ -29,7 +29,7 @@
 > Write a function that prints a matrix of integers.
 
 ## Task 6
-- [ ] `6-print_matrix_integer.py`
+- [x] `6-print_matrix_integer.py`
 > Write a function that prints a matrix of integers.
 
 ## Task 7
