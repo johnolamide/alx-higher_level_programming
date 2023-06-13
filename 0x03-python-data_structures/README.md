@@ -60,3 +60,7 @@
 ## Task 13
 - [x] `13-is_palindrome.c` `lists.h`
 > Write a function in C that checks if a singly linked list is a palindrome.
+
+## Advance Task
+- [x] `100-print_python_list_info.c`
+> C function that prints some basic info about Python lists
