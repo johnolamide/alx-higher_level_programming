@@ -41,7 +41,7 @@
 > Write a function that returns a new dictionary with all values multiplied by 2
 
 ## Task 10
-- [ ] `10-best_score.py`
+- [x] `10-best_score.py`
 > Write a function that returns a key with the biggest integer value.
 
 ## Task 11
