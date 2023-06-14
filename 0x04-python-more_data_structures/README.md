@@ -37,7 +37,7 @@
 > Write a function that deletes a key in a dictionary.
 
 ## Task 9
-- [ ] `9-multiply_by_2.py`
+- [x] `9-multiply_by_2.py`
 > Write a function that returns a new dictionary with all values multiplied by 2
 
 ## Task 10
