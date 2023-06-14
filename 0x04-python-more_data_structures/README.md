@@ -25,7 +25,7 @@
 > Write a function that returns the number of keys in a dictionary.
 
 ## Task 6
-- [ ] `6-print_sorted_dictionary.py`
+- [x] `6-print_sorted_dictionary.py`
 > Write a function that prints a dictionary by ordered keys.
 
 ## Task 7
