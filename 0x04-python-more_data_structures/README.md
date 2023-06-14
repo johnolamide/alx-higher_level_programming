@@ -17,7 +17,7 @@
 > Write a function that returns a set of common elements in two sets.
 
 ## Task
-- [ ] `4-only_diff_elements.py`
+- [x] `4-only_diff_elements.py`
 > Write a function that returns a set of all elements present in only one set.
 
 ## Task 5
