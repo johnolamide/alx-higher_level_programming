@@ -49,6 +49,6 @@
 > Write a function that returns a list with all values multiplied by a number without using any loops.
 
 ## Task 12
-- [ ] `12-roman_to_int.py`
+- [x] `12-roman_to_int.py`
 > write a function that converts a Roman numeral to an integer.
 
