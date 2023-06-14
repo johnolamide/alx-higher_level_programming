@@ -1,7 +1,7 @@
 # 0x04-python_more_data_structures
 
 ## Task 0
-- [ ] `0-square_matrix_simple.py`
+- [x] `0-square_matrix_simple.py`
 > Write a function that computes the square value of all integers of a matrix.
 
 ## Task 1
