@@ -33,7 +33,7 @@
 > Write a function that replaces or adds key/value in a dictionary.
 
 ## Task 8
-- [ ] `8-simple_delete.py`
+- [x] `8-simple_delete.py`
 > Write a function that deletes a key in a dictionary.
 
 ## Task 9
