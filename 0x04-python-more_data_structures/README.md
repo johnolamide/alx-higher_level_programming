@@ -45,7 +45,7 @@
 > Write a function that returns a key with the biggest integer value.
 
 ## Task 11
-- [ ] `11-multiply_list_map.py`
+- [x] `11-multiply_list_map.py`
 > Write a function that returns a list with all values multiplied by a number without using any loops.
 
 ## Task 12
