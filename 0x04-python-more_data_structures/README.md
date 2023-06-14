@@ -29,7 +29,7 @@
 > Write a function that prints a dictionary by ordered keys.
 
 ## Task 7
-- [ ] `7-update_dictionary.py`
+- [x] `7-update_dictionary.py`
 > Write a function that replaces or adds key/value in a dictionary.
 
 ## Task 8
