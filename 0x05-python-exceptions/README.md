@@ -5,7 +5,7 @@
 > Write a function that prints x elements of a list.
 
 ## Task 1
-- [ ] `1-safe_print_integer.py`
+- [x] `1-safe_print_integer.py`
 > Write a function that prints an integer with "{:d}".format().
 
 ## Task 2
