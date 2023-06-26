@@ -17,7 +17,7 @@
 > Write a function that divides 2 integers and prints the result.
 
 ## Task 4
-- [ ] `4-list_division.py`
+- [x] `4-list_division.py`
 > Write a function that divides element by element 2 lists.
 
 ## Task 5
