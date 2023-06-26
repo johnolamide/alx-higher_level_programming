@@ -8,8 +8,7 @@ def raise_exception_msg(message=""):
     Returns:
         exception with message
     """
-    if message:
-        raise NameError(message)
+    raise NameError(message)
 
 
 if __name__ == "__main__":
