@@ -25,5 +25,5 @@
 > Write a function that raises a type exception.
 
 ## Task 6
-- [ ] `6-raise_exception_msg.py`
+- [x] `6-raise_exception_msg.py`
 > Write a function that raises a name exception with a message.
