@@ -9,7 +9,7 @@
 > Write a function that prints an integer with "{:d}".format().
 
 ## Task 2
-- [ ] `2-safe_print_list_integers.py`
+- [x] `2-safe_print_list_integers.py`
 > Write a function that prints the first x elements of a list and only integers.
 
 ## Task 3
