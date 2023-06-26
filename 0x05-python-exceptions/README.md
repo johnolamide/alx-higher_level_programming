@@ -21,7 +21,7 @@
 > Write a function that divides element by element 2 lists.
 
 ## Task 5
-- [ ] `5-raise_exception.py`
+- [x] `5-raise_exception.py`
 > Write a function that raises a type exception.
 
 ## Task 6
