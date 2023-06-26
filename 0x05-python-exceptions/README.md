@@ -1,7 +1,7 @@
 # 0x05-Python-Exceptions
 
 ## Task 0
-- [ ] `0-safe_print_list.py`
+- [x] `0-safe_print_list.py`
 > Write a function that prints x elements of a list.
 
 ## Task 1
