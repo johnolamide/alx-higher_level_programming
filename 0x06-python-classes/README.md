@@ -21,7 +21,7 @@
 > Write a class Square that defines a square by: (based on 3-square.py)
 
 ## Task 5
-- [ ] `5-square.py`
+- [x] `5-square.py`
 > Write a class Square that defines a square by: (based on 4-square.py)
 
 ## Task 6
