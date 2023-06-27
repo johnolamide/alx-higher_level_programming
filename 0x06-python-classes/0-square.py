@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 """ Module contains: an empty Square class"""
+
+
 class Square:
     """an empty class that defines a square
     """
