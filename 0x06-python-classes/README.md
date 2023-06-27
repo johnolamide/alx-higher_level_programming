@@ -5,7 +5,7 @@
 > Write an empty class Square that defines a square
 
 ## Task 1
-- [ ] `1-square.py`
+- [x] `1-square.py`
 > Write a class Square that defines a square by: (based on 0-square.py)
 
 ## Task 2
