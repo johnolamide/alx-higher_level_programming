@@ -1,7 +1,7 @@
 # 0x06 Python Classes
 
 ## Task 0
-- [ ] `0-square.py`
+- [x] `0-square.py`
 > Write an empty class Square that defines a square
 
 ## Task 1
