@@ -9,7 +9,7 @@
 > Write a class Square that defines a square by: (based on 0-square.py)
 
 ## Task 2
-- [ ] `2-square.py`
+- [x] `2-square.py`
 > Write a class Square that defines a square by: (based on 1-square.py)
 
 ## Task 3
