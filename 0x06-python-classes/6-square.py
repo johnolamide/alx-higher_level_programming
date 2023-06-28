@@ -59,10 +59,12 @@ class Square:
             Args:
                 value: value for position
         """
+        errorMessage = "position must be a tuple of 2 positive integers"
+        if (type(value) != tuple or len(value) < 2):
+            raise TypeError(errorMessage)
         for v in value:
-            if v < 0:
-                raise TypeError("position must be a tuple"
-                                "of 2 positive integers")
+            if (v < 0 or type(v) != int):
+                raise TypeError(errorMessage)
         self.__position = value
 
     def area(self):
