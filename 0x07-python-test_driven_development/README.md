@@ -1,7 +1,7 @@
 # 0x07 Python-Test-Driven-Development
 
 ## Task 0
-- [ ] `0-add_integer.py` `test/0-add_integer.txt`
+- [x] `0-add_integer.py` `test/0-add_integer.txt`
 > Write a function that adds 2 integers.
 
 ## Task 1
