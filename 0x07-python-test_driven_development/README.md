@@ -13,7 +13,7 @@
 > Write a function that prints `My name is <first name> <last name>`
 
 ## Task 3
-- [ ] `4-print_square.py` `tests/4-print_square.txt`
+- [x] `4-print_square.py` `tests/4-print_square.txt`
 > Write a function that prints a square with the character #
 
 ## Task 4
