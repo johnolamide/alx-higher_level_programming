@@ -20,6 +20,7 @@ def matrix_divided(matrix, div):
             ZeroDivisionError: for division by zero
     """
     matrix_error = "matrix must be a matrix (list of lists) of integers/floats"
+    length_error = "Each row of the matrix must have the same size"
     # check if matrix is a list of list
     if (type(matrix) != list):
         raise TypeError(matrix_error)
@@ -30,7 +31,7 @@ def matrix_divided(matrix, div):
                 raise TypeError(matrix_error)
             row_length = len(matrix[0])
             if len(row) != row_length:
-                raise TypeError("Each row of the matrix must have the same size")
+                raise TypeError(length_error)
             for element in row:
                 if (type(element) != int and type(element) != float):
                     raise TypeError(matrix_error)

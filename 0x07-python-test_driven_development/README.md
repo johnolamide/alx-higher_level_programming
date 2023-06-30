@@ -9,7 +9,7 @@
 > Write a function that divides all elements of a matrix.
 
 ## Task 2
-- [ ] `3-say_my_name.py` `tests/3-say_my_name.txt`
+- [x] `3-say_my_name.py` `tests/3-say_my_name.txt`
 > Write a function that prints `My name is <first name> <last name>`
 
 ## Task 3
