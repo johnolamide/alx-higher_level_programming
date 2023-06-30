@@ -17,7 +17,7 @@
 > Write a function that prints a square with the character #
 
 ## Task 4
-- [ ] `5-text_indentation.py` `tests/5-text_indentation.txt`
+- [x] `5-text_indentation.py` `tests/5-text_indentation.txt`
 
 ## Task 5
 - [ ] `tests/6-max_integer_test.py`

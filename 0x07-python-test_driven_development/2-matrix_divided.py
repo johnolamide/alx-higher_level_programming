@@ -33,10 +33,10 @@ def matrix_divided(matrix, div):
             if len(row) != row_length:
                 raise TypeError(length_error)
             for element in row:
-                if (type(element) != int and type(element) != float):
+                if (type(element) not in [int, float]):
                     raise TypeError(matrix_error)
     # check if div is not an integer or float value
-    if (type(div) != int and type(div) != float):
+    if (type(div) not in [int, float]):
         raise TypeError("div must be a number")
     # check for zero division
     if div == 0:
