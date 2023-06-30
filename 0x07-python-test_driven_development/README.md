@@ -5,7 +5,7 @@
 > Write a function that adds 2 integers.
 
 ## Task 1
-- [ ] `2-matrix_divided.py` `test/2-matrix_divided.txt`
+- [x] `2-matrix_divided.py` `test/2-matrix_divided.txt`
 > Write a function that divides all elements of a matrix.
 
 ## Task 2
