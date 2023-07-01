@@ -20,5 +20,5 @@
 - [x] `5-text_indentation.py` `tests/5-text_indentation.txt`
 
 ## Task 5
-- [ ] `tests/6-max_integer_test.py`
+- [x] `tests/6-max_integer_test.py`
 > write unittests for the function `def max_integer(list=[]):`
