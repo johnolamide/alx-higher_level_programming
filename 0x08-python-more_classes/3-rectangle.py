@@ -110,7 +110,9 @@ class Rectangle:
             str: A string representation of the object that can
             be used to recreate it
         """
-        return "<3-rectangle.{} object at {}>".format(self.__class__.__name__, hex(id(self)))
+        class_name = self.__class__.__name__
+        object_id = hex(id(self))
+        return "<3-rectangle.{} object at {}>".format(class_name, object_id)
 
 
 if __name__ == "__main__":
