@@ -98,7 +98,7 @@ class Rectangle:
             Returns:
                 str: A string representation of the object
         """
-        if (self.width == 0 or self.height == 0)
+        if (self.width == 0 or self.height == 0):
             return ""
         result = []
         for i in range(self.height):
