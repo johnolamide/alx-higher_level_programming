@@ -21,11 +21,11 @@
 > Write a class Rectangle that defines a rectangle by: (based on 3-rectangle.py)
 
 ## Task 5
-- [ ] `5-rectangle.py`
+- [x] `5-rectangle.py`
 > Write a class Rectangle that defines a rectangle by: (based on 4-rectangle.py)
 
 ## Task 6
-- [ ] `6-rectangle.py`
+- [x] `6-rectangle.py`
 > Write a class Rectangle that defines a rectangle by: (based on 5-rectangle.py)
 
 ## Task 7
