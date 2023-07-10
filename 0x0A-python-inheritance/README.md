@@ -9,7 +9,7 @@
 > Write a class MyList that inherits from list
 
 ## Task 2
-- [ ] `2-is_same_class.py`
+- [x] `2-is_same_class.py`
 > Write a function that returns True if the object is exactly an instance of the specified class ; otherwise False.
 
 ## Task 3
