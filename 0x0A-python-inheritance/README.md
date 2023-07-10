@@ -37,7 +37,7 @@
 > Write a class Rectangle that inherits from BaseGeometry (`7-base_geometry.py`).
 
 ## Task 9
-- [ ] `9-rectangle.py`
+- [x] `9-rectangle.py`
 > Write a class Rectangle that inherits from BaseGeometry (`7-base_geometry.py`). (task based on `8-rectangle.py`)
 
 ## Task 10
