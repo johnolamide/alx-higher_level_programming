@@ -1,7 +1,7 @@
 # 0x0A-Python-Inheritance
 
 ## Task 0
-- [ ] `0-lookup.py`
+- [x] `0-lookup.py`
 > Write a function that returns the list of available attributes and methods of an object
 
 ## Task 1
