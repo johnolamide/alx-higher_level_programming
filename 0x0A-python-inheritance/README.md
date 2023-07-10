@@ -45,6 +45,6 @@
 > Write a class Square that inherits from Rectangle (`9-rectangle.py`)
 
 ## Task 11
-- [ ] `11-square.py`
+- [x] `11-square.py`
 > Write a class Square that inherits from Rectangle (`9-rectangle.py`). (task based on `10-square.py`).
 
