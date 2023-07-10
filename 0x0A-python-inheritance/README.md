@@ -25,7 +25,7 @@
 > Write an empty class BaseGeometry.
 
 ## Task 6
-- [ ] `6-base_geometry.py`
+- [x] `6-base_geometry.py`
 > Write a class BaseGeometry (based on `5-base_geometry.py`)
 
 ## Task 7
