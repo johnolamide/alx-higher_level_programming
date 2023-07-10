@@ -21,7 +21,7 @@
 > Write a function that returns True if the object is an instance of a class that inherited (directly or indirectly) from the specified class ; otherwise False.
 
 ## Task 5
-- [ ] `5-base_geometry.py`
+- [x] `5-base_geometry.py`
 > Write an empty class BaseGeometry.
 
 ## Task 6
