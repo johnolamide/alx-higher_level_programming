@@ -29,7 +29,7 @@
 > Write a class BaseGeometry (based on `5-base_geometry.py`)
 
 ## Task 7
-- [ ] `7-base_geometry` `tests/base_geometry.txt`
+- [x] `7-base_geometry` `tests/base_geometry.txt`
 > Write a class BaseGeometry (based on `6-base_geometry.py`)
 
 ## Task 8
