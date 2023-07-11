@@ -49,6 +49,6 @@
 > Write a class Student that defines a student by: (based on `10-student.py`)
 
 ## Task 12
-- [ ] `12-pascal_triangle.py`
+- [x] `12-pascal_triangle.py`
 > Create a function def `pascal_triangle(n)`: that returns a list of lists of integers representing the Pascal’s triangle of n
 
