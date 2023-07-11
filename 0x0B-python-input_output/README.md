@@ -9,7 +9,7 @@
 > Write a function that writes a string to a text file (UTF8) and returns the number of characters written
 
 ## Task 2
-- [ ] `2-append_write.py`
+- [x] `2-append_write.py`
 > Write a function that appends a string at the end of a text file (UTF8) and returns the number of characters added
 
 ## Task 3
