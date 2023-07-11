@@ -25,7 +25,7 @@
 > Write a function that writes an Object to a text file, using a JSON representation
 
 ## Task 6
-- [ ] `6-load_from_json_file.py`
+- [x] `6-load_from_json_file.py`
 > Write a function that creates an Object from a “JSON file”
 
 ## Task 7
