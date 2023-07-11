@@ -89,6 +89,8 @@ class Student:
 
     def to_json(self, attrs=None):
         """ Retrieves a dictionary representation of a Student instance
+            Args:
+                attrs: attributes
         """
         if attrs is None:
             return self.__dict__
