@@ -5,7 +5,7 @@
 > Write a function that reads a text file (UTF8) and prints it to stdout
 
 ## Task 1
-- [ ] `1-write_file.py`
+- [x] `1-write_file.py`
 > Write a function that writes a string to a text file (UTF8) and returns the number of characters written
 
 ## Task 2
