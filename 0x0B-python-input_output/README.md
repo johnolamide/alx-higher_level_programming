@@ -17,7 +17,7 @@
 > Write a function that returns the JSON representation of an object (string)
 
 ## Task 4
-- [ ] `4-from_json_to_string.py`
+- [x] `4-from_json_to_string.py`
 > Write a function that returns an object (Python data structure) represented by a JSON string
 
 ## Task 5
