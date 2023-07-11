@@ -37,7 +37,7 @@
 > Write a function that returns the dictionary description with simple data structure (list, dictionary, string, integer and boolean) for JSON serialization of an object
 
 ## Task 9
-- [ ] `9-student.py`
+- [x] `9-student.py`
 > Write a class Student that defines a student
 
 ## Task 10
