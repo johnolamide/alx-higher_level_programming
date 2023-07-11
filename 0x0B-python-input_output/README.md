@@ -13,7 +13,7 @@
 > Write a function that appends a string at the end of a text file (UTF8) and returns the number of characters added
 
 ## Task 3
-- [ ] `3-to_json_string.py`
+- [x] `3-to_json_string.py`
 > Write a function that returns the JSON representation of an object (string)
 
 ## Task 4
