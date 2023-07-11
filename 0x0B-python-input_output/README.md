@@ -29,7 +29,7 @@
 > Write a function that creates an Object from a “JSON file”
 
 ## Task 7
-- [ ] `7-add_item.py`
+- [x] `7-add_item.py`
 > Write a script that adds all arguments to a Python list, and then save them to a file
 
 ## Task 8
