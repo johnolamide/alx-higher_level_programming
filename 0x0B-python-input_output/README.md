@@ -21,7 +21,7 @@
 > Write a function that returns an object (Python data structure) represented by a JSON string
 
 ## Task 5
-- [ ] `5-save_to_json_file.py`
+- [x] `5-save_to_json_file.py`
 > Write a function that writes an Object to a text file, using a JSON representation
 
 ## Task 6
