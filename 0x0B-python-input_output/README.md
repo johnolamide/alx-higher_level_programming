@@ -41,7 +41,7 @@
 > Write a class Student that defines a student
 
 ## Task 10
-- [ ] `10-student.py`
+- [x] `10-student.py`
 > Write a class Student that defines a student by: (based on `9-student.py`)
 
 ## Task 11
