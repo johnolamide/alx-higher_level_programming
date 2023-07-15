@@ -5,7 +5,7 @@
 > ll your files, classes and methods must be unit tested and be PEP 8 validated.
 
 ## Task 1
-- [ ] `models/base.py`
+- [x] `models/base.py`
 > Write the first class `Base`
 
 ## Task 2
