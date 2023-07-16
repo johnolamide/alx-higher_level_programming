@@ -13,7 +13,7 @@
 > Write the class `Rectangle` that inherits from `Base`
 
 ## Task 3
-- [ ] `models/rectangle.py`
+- [x] `models/rectangle.py`
 > Update the class Rectangle by adding validation of all setter methods and instantiation (id excluded):
 
 ## Task 4

@@ -44,6 +44,24 @@ class TestRectangle(unittest.TestCase):
         self.assertEqual(self.r.x, 5)
         self.assertEqual(self.r.y, 10)
 
+    def test_valueerror(self):
+        """
+            Test case for raising ValueError
+        """
+        self.assertRaises(ValueError, lambda: setattr(self.r, 'width', -7))
+        self.assertRaises(ValueError, lambda: setattr(self.r, 'height', 0))
+        self.assertRaises(ValueError, lambda: setattr(self.r, 'x', -2))
+        self.assertRaises(ValueError, lambda: setattr(self.r, 'y', -2))
+
+    def test_typeerror(self):
+        """
+            Test case for raising TypeError
+        """
+        self.assertRaises(TypeError, lambda: setattr(self.r, 'width', "width"))
+        self.assertRaises(TypeError, lambda: setattr(self.r, 'height', "height"))
+        self.assertRaises(TypeError, lambda: setattr(self.r, 'x', "x"))
+        self.assertRaises(TypeError, lambda: setattr(self.r, 'y', "y"))
+
 
 if __name__ == "__main__":
     unittest.main()
