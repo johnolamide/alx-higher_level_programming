@@ -25,7 +25,7 @@ class Rectangle(Base):
             y(value): setter for the y attribute
             area: returns the area value of the rectangle instance
             display: prints to stdout the rectangle instance
-            update(*args): assigns an argument to each attribute
+            update(*args, **kwargs): assigns an argument to each attribute
         Raises:
             ValueError: if int value is less than or eqaul to 0
             TypeError: if int value is not int
@@ -161,30 +161,32 @@ class Rectangle(Base):
         for row in range(self.height):
             print((' ' * self.x) + '#' * self.width)
 
-    def update(self, *args):
+    def update(self, *args, **kwargs):
         """
             Assigns an argument to each attribute
         """
         attributes = ['id', 'width', 'height', 'x', 'y']
-        for attr, arg in zip(attributes, args):
-            setattr(self, attr, arg)
+        if args:
+            for attr, arg in zip(attributes, args):
+                setattr(self, attr, arg)
+        elif kwargs:
+            for key, value in kwargs.items():
+                if key in attributes:
+                    setattr(self, key, value)
 
 
 if __name__ == "__main__":
     r1 = Rectangle(10, 10, 10, 10)
     print(r1)
 
-    r1.update(89)
+    r1.update(height=1)
     print(r1)
 
-    r1.update(89, 2)
+    r1.update(width=1, x=2)
     print(r1)
 
-    r1.update(89, 2, 3)
+    r1.update(y=1, width=2, x=3, id=89)
     print(r1)
 
-    r1.update(89, 2, 3, 4)
-    print(r1)
-
-    r1.update(89, 2, 3, 4, 5)
+    r1.update(x=1, height=2, y=3, width=4)
     print(r1)

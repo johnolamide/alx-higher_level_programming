@@ -37,7 +37,7 @@
 > Update the class `Rectangle` by adding the public method `def update(self, *args):` that assigns an argument to each attribute:
 
 ## Task 9
-- [ ] `models/rectangle.py`
+- [x] `models/rectangle.py`
 > Update the class `Rectangle` by updating the public method `def update(self, *args):` by changing the prototype to `update(self, *args, **kwargs)` that assigns a key/value argument to attributes:
 
 ## Task 10
