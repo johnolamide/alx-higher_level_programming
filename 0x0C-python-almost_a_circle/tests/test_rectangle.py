@@ -62,6 +62,12 @@ class TestRectangle(unittest.TestCase):
         self.assertRaises(TypeError, lambda: setattr(self.r, 'x', "x"))
         self.assertRaises(TypeError, lambda: setattr(self.r, 'y', "y"))
 
+    def test_area(self):
+        """
+            Test case for area method
+        """
+        self.assertEqual(self.r.area(), 200)
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -1,8 +1,8 @@
 # 0x0C-Python-Almost-a-Circle
 
 ## Task 0
-- [ ] `/tests`
-> ll your files, classes and methods must be unit tested and be PEP 8 validated.
+- [x] `/tests`
+> All your files, classes and methods must be unit tested and be PEP 8 validated.
 
 ## Task 1
 - [x] `models/base.py`
@@ -17,7 +17,7 @@
 > Update the class Rectangle by adding validation of all setter methods and instantiation (id excluded):
 
 ## Task 4
-- [ ] `models/rectangle.py`
+- [x] `models/rectangle.py`
 > pdate the class `Rectangle` by adding the public method `def area(self):` that returns the area value of the Rectangle instance.
 
 ## Task 5
