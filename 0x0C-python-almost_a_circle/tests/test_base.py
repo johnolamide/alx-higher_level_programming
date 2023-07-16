@@ -20,6 +20,16 @@ class TestBase(unittest.TestCase):
         self.b4 = Base(12)
         self.b5 = Base()
 
+    def tearDown(self):
+        """
+            Tear Down the Base Instance
+        """
+        del self.b1
+        del self.b2
+        del self.b3
+        del self.b4
+        del self.b5
+
     def test_init(self):
         """
             Test the __init__ method

@@ -9,7 +9,7 @@
 > Write the first class `Base`
 
 ## Task 2
-- [ ] `models/rectangle.py`
+- [x] `models/rectangle.py`
 > Write the class `Rectangle` that inherits from `Base`
 
 ## Task 3
