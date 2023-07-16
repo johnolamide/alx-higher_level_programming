@@ -74,6 +74,17 @@ class TestRectangle(unittest.TestCase):
         """
         self.assertEqual(self.r.area(), 200)
 
+    def test_update(self):
+        """
+            Test casee for the update method
+        """
+        self.r.update(10, 10, 10, 10)
+        self.assertEqual(self.r.id, 10)
+        self.assertEqual(self.r.height, 10)
+        self.r.update(89, 2)
+        self.assertEqual(self.r.id, 89)
+        self.assertEqual(self.r.width, 2)
+
 
 if __name__ == "__main__":
     unittest.main()
