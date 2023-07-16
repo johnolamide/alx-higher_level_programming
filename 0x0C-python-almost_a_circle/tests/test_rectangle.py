@@ -31,6 +31,12 @@ class TestRectangle(unittest.TestCase):
         self.assertEqual(self.r.y, 5)
         self.assertEqual(self.r.id, 99)
 
+#    def test_str(self):
+#        """
+#            Test case for the __str__ function
+#        """
+#        self.assertEqual(print(self.r), "[Rectangle] (99) 5/5 - 10/20")
+
     def test_setters(self):
         """
             Test case for the setters

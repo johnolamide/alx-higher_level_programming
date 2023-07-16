@@ -14,6 +14,7 @@ class Rectangle(Base):
             __y (int0: y position
         Methods:
             __init__: initialize the Rectangle class
+            __str__: string representation of the Rectangle instance
             width: getter for the width attribute
             width(value): setter for the width attribute
             height: getter for the height attribute
@@ -44,6 +45,15 @@ class Rectangle(Base):
         self.height = height
         self.x = x
         self.y = y
+
+    def __str__(self):
+        """
+            String representation of the Rectangel instance
+        """
+        return "[{}] ({}) {}/{} - {}/{}".format(
+                        self.__class__.__name__,
+                        self.id, self.x, self.y,
+                        self.width, self.height)
 
     @property
     def width(self):
@@ -150,10 +160,8 @@ class Rectangle(Base):
 
 
 if __name__ == "__main__":
-    r1 = Rectangle(4, 6)
-    r1.display()
+    r1 = Rectangle(4, 6, 2, 1, 12)
+    print(r1)
 
-    print("---")
-
-    r1 = Rectangle(2, 2)
-    r1.display()
+    r2 = Rectangle(5, 5, 1)
+    print(r2)
