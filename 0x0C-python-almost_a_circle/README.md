@@ -21,7 +21,7 @@
 > pdate the class `Rectangle` by adding the public method `def area(self):` that returns the area value of the Rectangle instance.
 
 ## Task 5
-- [ ] `models/rectangle.py`
+- [x] `models/rectangle.py`
 > Update the class `Rectangle` by adding the public method `def display(self):` that prints in stdout the `Rectangle` instance with the character # - you don’t need to handle x and y here.
 
 ## Task 6

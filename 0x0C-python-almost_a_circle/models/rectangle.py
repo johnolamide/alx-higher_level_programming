@@ -23,6 +23,7 @@ class Rectangle(Base):
             y: getter for the y attribute
             y(value): setter for the y attribute
             area: returns the area value of the rectangle instance
+            display: prints to stdout the rectangle instance
         Raises:
             ValueError: if int value is less than or eqaul to 0
             TypeError: if int value is not int
@@ -140,13 +141,19 @@ class Rectangle(Base):
         """
         return self.width * self.height
 
+    def display(self):
+        """
+            Prints to stdout the Rectangle instance with the # character
+        """
+        for row in range(self.height):
+            print('#' * self.width)
+
 
 if __name__ == "__main__":
-    r1 = Rectangle(3, 2)
-    print(r1.area())
+    r1 = Rectangle(4, 6)
+    r1.display()
 
-    r2 = Rectangle(2, 10)
-    print(r2.area())
+    print("---")
 
-    r3 = Rectangle(8, 7, 0, 0, 12)
-    print(r3.area())
+    r1 = Rectangle(2, 2)
+    r1.display()
