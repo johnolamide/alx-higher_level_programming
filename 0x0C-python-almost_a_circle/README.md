@@ -49,7 +49,7 @@
 > Update the class `Square` by adding the public getter and setter `size`
 
 ## Task 12
-- [ ] `models/square.py`
+- [x] `models/square.py`
 > Update the class Square by adding the public method `def update(self, *args, **kwargs)` that assigns attributes:
 
 ## Task 13

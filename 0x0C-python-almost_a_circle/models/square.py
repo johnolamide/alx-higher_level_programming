@@ -17,6 +17,7 @@ class Square(Rectangle):
             __str__: string representation of the Square instance
             size: getter for the size attribute
             size(value): setter for the size attribute
+            update(*args, **kwargs): updates the Square attributes
     """
     def __init__(self, size, x=0, y=0, id=None):
         """
@@ -56,15 +57,42 @@ class Square(Rectangle):
         self.width = value
         self.height = value
 
+    def update(self, *args, **kwargs):
+        """
+            Update the Square attributes
+        """
+        attributes = ['id', 'size', 'x', 'y']
+        if args:
+            for attr, arg in zip(attributes, args):
+                setattr(self, attr, arg)
+        elif kwargs:
+            for key, value in kwargs.items():
+                if key in attributes:
+                    setattr(self, key, value)
+
 
 if __name__ == '__main__':
     s1 = Square(5)
     print(s1)
-    print(s1.size)
-    s1.size = 10
+
+    s1.update(10)
     print(s1)
 
-    try:
-        s1.size = "9"
-    except Exception as e:
-        print("[{}] {}".format(e.__class__.__name__, e))
+    s1.update(1, 2)
+    print(s1)
+
+    s1.update(1, 2, 3)
+    print(s1)
+
+    s1.update(1, 2, 3, 4)
+    print(s1)
+
+    s1.update(x=12)
+    print(s1)
+
+    s1.update(size=7, y=1)
+    print(s1)
+
+    s1.update(size=7, id=89, y=1)
+    print(s1)
+

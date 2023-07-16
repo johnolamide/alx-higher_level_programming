@@ -41,6 +41,15 @@ class TestSquare(unittest.TestCase):
         self.assertRaises(TypeError, lambda: setattr(self.s1, 'size', "size"))
         self.assertRaises(ValueError, lambda: setattr(self.s1, 'size', -10))
 
+    def test_update(self):
+        """
+            Test case for the update method
+        """
+        self.s1.update(size=7, id=89, y=1)
+        self.assertEqual(self.s1.size, 7)
+        self.assertEqual(self.s1.id, 89)
+        self.assertEqual(self.s1.y, 1)
+
 
 if __name__ == '__main__':
     unittest.main()
