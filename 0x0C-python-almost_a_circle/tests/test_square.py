@@ -29,6 +29,17 @@ class TestSquare(unittest.TestCase):
         self.assertEqual(self.s1.height, 5)
         self.assertEqual(self.s1.width, 5)
         self.assertEqual(self.s1.area(), 25)
+        self.assertEqual(self.s1.size, 5)
+        self.s1.size = 10
+        self.assertEqual(self.s1.size, 10)
+        self.assertEqual(self.s1.area(), 100)
+
+    def test_raises(self):
+        """
+            Test case for raising exception
+        """
+        self.assertRaises(TypeError, lambda: setattr(self.s1, 'size', "size"))
+        self.assertRaises(ValueError, lambda: setattr(self.s1, 'size', -10))
 
 
 if __name__ == '__main__':

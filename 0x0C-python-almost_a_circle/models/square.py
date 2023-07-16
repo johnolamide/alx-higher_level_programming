@@ -15,6 +15,8 @@ class Square(Rectangle):
         Methods:
             __init__: initializes the Square class
             __str__: string representation of the Square instance
+            size: getter for the size attribute
+            size(value): setter for the size attribute
     """
     def __init__(self, size, x=0, y=0, id=None):
         """
@@ -35,23 +37,34 @@ class Square(Rectangle):
                                              self.id, self.x, self.y,
                                              self.width)
 
+    @property
+    def size(self):
+        """
+            Getter for the size attribute
+            Returns:
+                value for the size attribute
+        """
+        return self.width
+
+    @size.setter
+    def size(self, value):
+        """
+            Setter for the size attribute
+            Args:
+                value: size value
+        """
+        self.width = value
+        self.height = value
+
 
 if __name__ == '__main__':
     s1 = Square(5)
     print(s1)
-    print(s1.area())
-    s1.display()
+    print(s1.size)
+    s1.size = 10
+    print(s1)
 
-    print("---")
-
-    s2 = Square(2, 2)
-    print(s2)
-    print(s2.area())
-    s2.display()
-
-    print("---")
-
-    s3 = Square(3, 1, 3)
-    print(s3)
-    print(s3.area())
-    s3.display()
+    try:
+        s1.size = "9"
+    except Exception as e:
+        print("[{}] {}".format(e.__class__.__name__, e))

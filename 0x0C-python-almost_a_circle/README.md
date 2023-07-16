@@ -45,7 +45,7 @@
 > Write the class `Square` that inherits from `Rectangle`
 
 ## Task 11
-- [ ] `models/square.py`
+- [x] `models/square.py`
 > Update the class `Square` by adding the public getter and setter `size`
 
 ## Task 12
