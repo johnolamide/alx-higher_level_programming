@@ -61,7 +61,7 @@
 > Update the class Square by adding the public method `def to_dictionary(self):` that returns the dictionary representation of a `Square`
 
 ## Task 15
-- [ ] `models/bae.py`
+- [x] `models/bae.py`
 > Update the class `Base` by adding the static method `def to_json_string(list_dictionaries):` that returns the JSON string representation of list_dictionaries
 
 ## Task 16
