@@ -18,7 +18,7 @@
 
 ## Task 4
 - [x] `models/rectangle.py`
-> pdate the class `Rectangle` by adding the public method `def area(self):` that returns the area value of the Rectangle instance.
+> Update the class `Rectangle` by adding the public method `def area(self):` that returns the area value of the Rectangle instance.
 
 ## Task 5
 - [x] `models/rectangle.py`
@@ -53,7 +53,7 @@
 > Update the class Square by adding the public method `def update(self, *args, **kwargs)` that assigns attributes:
 
 ## Task 13
-- [ ] `models/rectangle.py`
+- [x] `models/rectangle.py`
 > Update the class `Rectangle` by adding the public method `def to_dictionary(self):` that returns the dictionary representation of a Rectangle
 
 ## Task 14

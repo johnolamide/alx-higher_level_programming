@@ -76,7 +76,7 @@ class TestRectangle(unittest.TestCase):
 
     def test_update(self):
         """
-            Test casee for the update method
+            Test case for the update method
         """
         self.r.update(10, 10, 10, 10)
         self.assertEqual(self.r.id, 10)
@@ -87,6 +87,14 @@ class TestRectangle(unittest.TestCase):
         self.r.update(x=1, height=2, y=3, width=4)
         self.assertEqual(self.r.height, 2)
         self.assertEqual(self.r.y, 3)
+
+    def test_to_dictionary(self):
+        """
+            Test case for the to_dictionary method
+        """
+        expected = {'id': 99, 'width': 10, 'height': 20,
+                    'x': 5, 'y': 5}
+        self.assertEqual(self.r.to_dictionary(), expected)
 
 
 if __name__ == "__main__":

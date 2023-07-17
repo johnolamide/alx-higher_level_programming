@@ -26,6 +26,7 @@ class Rectangle(Base):
             area: returns the area value of the rectangle instance
             display: prints to stdout the rectangle instance
             update(*args, **kwargs): assigns an argument to each attribute
+            to_dictionary: dictionary representation of the rectangle
         Raises:
             ValueError: if int value is less than or eqaul to 0
             TypeError: if int value is not int
@@ -174,19 +175,24 @@ class Rectangle(Base):
                 if key in attributes:
                     setattr(self, key, value)
 
+    def to_dictionary(self):
+        """
+            Returns the dictionary representation
+        """
+        return {'id': self.id, 'width': self.width,
+                'height': self.height, 'x': self.x,
+                'y': self.y}
+
 
 if __name__ == "__main__":
-    r1 = Rectangle(10, 10, 10, 10)
+    r1 = Rectangle(10, 2, 1, 9)
     print(r1)
+    r1_dictionary = r1.to_dictionary()
+    print(r1_dictionary)
+    print(type(r1_dictionary))
 
-    r1.update(height=1)
-    print(r1)
-
-    r1.update(width=1, x=2)
-    print(r1)
-
-    r1.update(y=1, width=2, x=3, id=89)
-    print(r1)
-
-    r1.update(x=1, height=2, y=3, width=4)
-    print(r1)
+    r2 = Rectangle(1, 1)
+    print(r2)
+    r2.update(**r1_dictionary)
+    print(r2)
+    print(r1 == r2)
