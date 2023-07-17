@@ -57,7 +57,7 @@
 > Update the class `Rectangle` by adding the public method `def to_dictionary(self):` that returns the dictionary representation of a Rectangle
 
 ## Task 14
-- [ ] `models/square.py`
+- [x] `models/square.py`
 > Update the class Square by adding the public method `def to_dictionary(self):` that returns the dictionary representation of a `Square`
 
 ## Task 15

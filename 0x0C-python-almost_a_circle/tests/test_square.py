@@ -14,7 +14,7 @@ class TestSquare(unittest.TestCase):
         """
             Setup a Square Instance
         """
-        self.s1 = Square(5)
+        self.s1 = Square(5, 2, 1)
 
     def tearDown(self):
         """
@@ -49,6 +49,14 @@ class TestSquare(unittest.TestCase):
         self.assertEqual(self.s1.size, 7)
         self.assertEqual(self.s1.id, 89)
         self.assertEqual(self.s1.y, 1)
+
+    def test_to_dictionary(self):
+        """
+            Tests case for the to_dictionary method
+        """
+        self.s1.id = 99
+        expected = {'id': 99, 'size': 5, 'x': 2, 'y': 1}
+        self.assertEqual(self.s1.to_dictionary(), expected)
 
 
 if __name__ == '__main__':
