@@ -13,6 +13,7 @@ class Base:
         Methods:
             __init__: initialize the class
             to_json_string(list_dictionaries): returns JSON representation
+            from_json_string(json_string): returns the list ofdictionaries
     """
     __nb_objects = 0
 
@@ -38,19 +39,12 @@ class Base:
         else:
             return json.dumps(list_dictionaries)
 
-
-if __name__ == "__main__":
-    b1 = Base()
-    print(b1.id)
-
-    b2 = Base()
-    print(b2.id)
-
-    b3 = Base()
-    print(b3.id)
-
-    b4 = Base(12)
-    print(b4.id)
-
-    b5 = Base()
-    print(b5.id)
+    @staticmethod
+    def from_json_string(json_string):
+        """
+            Returns the list of dictionaries from a JSON string
+        """
+        if json_string is None or not json_string:
+            return []
+        else:
+            return json.loads(json_string)

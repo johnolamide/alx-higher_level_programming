@@ -65,7 +65,7 @@
 > Update the class `Base` by adding the static method `def to_json_string(list_dictionaries):` that returns the JSON string representation of list_dictionaries
 
 ## Task 16
-- [ ] `models/base.py`
+- [x] `models/base.py`
 > Update the class `Base` by adding the class method `def save_to_file(cls, list_objs):` that writes the JSON string representation of `list_objs` to a file
 
 ## Task 17
