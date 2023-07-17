@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """ Module contains the class definition of Base
 """
+import os
 import json
 
 
@@ -13,8 +14,10 @@ class Base:
         Methods:
             __init__: initialize the class
             to_json_string(list_dictionaries): returns JSON representation
+            save_to_file(cls, list_objs): writes JSON to a file
             from_json_string(json_string): returns the list ofdictionaries
             create(cls, **dicionary): creates a new instance
+            load_from_file(cls): returns a list of instances from a file
     """
     __nb_objects = 0
 
@@ -42,6 +45,21 @@ class Base:
         else:
             return json.dumps(list_dictionaries)
 
+    @classmethod
+    def save_to_file(cls, list_objs):
+        """
+            Save JSON to file
+            Args:
+                cls: class
+                list_objs: list object
+        """
+        filename = cls.__name__ + ".json"
+        if list_objs is None:
+            list_objs = []
+        list_dictionaries = [obj.to_dictionary() for obj in list_objs]
+        with open(filename, "w") as f:
+            f.write(cls.to_json_string(list_dictionaries))
+
     @staticmethod
     def from_json_string(json_string):
         """
@@ -67,3 +85,17 @@ class Base:
         # update the dummy instance with the dictionary values
         dummy.update(**dictionary)
         return dummy
+
+    @classmethod
+    def load_from_file(cls):
+        """
+            returns a list of instances from a file
+            Args:
+                cls: class
+        """
+        filename = cls.__name__ + ".json"
+        if not os.path.exists(filename):
+            return []
+        with open(filename, "r") as f:
+            list_dictionaries = cls.from_json_string(f.read())
+            return [cls.create(**d) for d in list_dictionaries]
