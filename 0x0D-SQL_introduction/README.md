@@ -31,7 +31,7 @@
 > If the table `first_table` already exists, your script should not fail
 
 ## Task 5
-- [ ] `5-full_table.sql`
+- [5] `5-full_table.sql`
 > Write a script that prints the full description of the table `first_table` from the database `hbtn_0c_0` in your MySQL server.
 > - The database name will be passed as an argument of the mysql command
 
