@@ -1,7 +1,7 @@
 # 0x0D SQL Introduction
 
 ## Task 0
-- [ ] `0-list_databases.sql`
+- [x] `0-list_databases.sql`
 > Write a script that lists all databases of your MySQL server
 
 ## Task 1
