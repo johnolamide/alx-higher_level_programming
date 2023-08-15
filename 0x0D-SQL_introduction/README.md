@@ -87,7 +87,7 @@
 > - The result column name should be `average`
 
 ## Task 15
-- [ ] `15-groups.sql`
+- [x] `15-groups.sql`
 > Write a script that lists the number of records with the same score in the table `second_table` of the database `hbtn_0c_0` in your MySQL server.
 > The result should display:
 > - the `score`
@@ -99,4 +99,4 @@
 > - Don’t list rows without a `name` value
 > - Results should display the score and the name (in this order)
 > - Records should be listed by descending score
-
+i
