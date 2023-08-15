@@ -40,7 +40,7 @@
 > Write a script that lists all rows of the table `first_table` from the database `hbtn_0c_0` in your MySQL server.
 
 ## Task 7
-- [ ] `7-insert_values.sql`
+- [x] `7-insert_values.sql`
 > Write a script that inserts a new row in the table `first_table` (database `hbtn_0c_0`) in your MySQL server.
 > - New row:
 > - id = 89
