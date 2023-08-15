@@ -94,7 +94,7 @@
 > - the number of records for this `score` with the label `number`
 
 ## Task 16
-- [ ] `16-no_link.sql`
+- [x] `16-no_link.sql`
 > Write a script that lists all records of the table `second_table` of the database `hbtn_0c_0` in your MySQL server.
 > - Don’t list rows without a `name` value
 > - Results should display the score and the name (in this order)
