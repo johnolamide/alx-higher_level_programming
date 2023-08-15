@@ -22,7 +22,7 @@
 > - The database name will be passed as argument of mysql command (in the following example: mysql is the name of the database)
 
 ## Task 4
-- [ ] `4-first_table.sql`
+- [x] `4-first_table.sql`
 > Write a script that creates a table called `first_table` in the current database in your MySQL server.
 > `first_table` description:
 > - id `INT`
