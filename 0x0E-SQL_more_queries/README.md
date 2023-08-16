@@ -1,7 +1,7 @@
 # 0x0E SQL More Queries
 
 ## Task 0
-- [ ] `0-privileges.sql`
+- [x] `0-privileges.sql`
 
 ## Task 1
 - [ ] `1-create_user.sql`
