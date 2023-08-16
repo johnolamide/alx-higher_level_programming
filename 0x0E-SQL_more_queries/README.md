@@ -4,7 +4,7 @@
 - [x] `0-privileges.sql`
 
 ## Task 1
-- [ ] `1-create_user.sql`
+- [x] `1-create_user.sql`
 
 ## Task 2
 - [ ] `2-create_read_user.sql`
