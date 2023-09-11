@@ -37,7 +37,7 @@
 - [x] `11-second_biggest.js`
 
 ## Task 12
-- [ ] `12-object.js`
+- [x] `12-object.js`
 
 ## Task 13
 - [ ] `13-add.js`
