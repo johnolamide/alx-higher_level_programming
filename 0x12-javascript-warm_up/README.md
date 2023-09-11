@@ -1,7 +1,7 @@
 # 0x12 Javascript Warm Up
 
 ## Task 0
-- [ ] `0-javascript_is_amazing.js`
+- [x] `0-javascript_is_amazing.js`
 
 ## Task 1
 - [ ] `1-multi_languages.js`
