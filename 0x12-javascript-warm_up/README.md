@@ -31,7 +31,7 @@
 - [x] `9-add.js`
 
 ## Task 10
-- [ ] `10-factorial.js`
+- [x] `10-factorial.js`
 
 ## Task 11
 - [ ] `11-second_biggest.js`
