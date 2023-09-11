@@ -19,5 +19,4 @@ if (argv.length > 2) {
     secondMax = Math.max(...args2);
   }
 }
-console.log(max);
 console.log(secondMax);
