@@ -13,7 +13,7 @@
 - [x] `3-value_argument.js`
 
 ## Task 4
-- [ ] `4-concat.js`
+- [x] `4-concat.js`
 
 ## Task 5
 - [ ] `5-to_integer.js`
