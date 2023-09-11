@@ -25,7 +25,7 @@
 - [x] `7-multi_c.js`
 
 ## Task 8
-- [ ] `8-square.js`
+- [x] `8-square.js`
 
 ## Task 9
 - [ ] `9-add.js`
