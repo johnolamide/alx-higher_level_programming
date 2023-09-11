@@ -22,7 +22,7 @@
 - [x] `6-multi_languages_loop.js`
 
 ## Task 7
-- [ ] `7-multi_c.js`
+- [x] `7-multi_c.js`
 
 ## Task 8
 - [ ] `8-square.js`
