@@ -7,7 +7,7 @@
 - [x] `1-multi_languages.js`
 
 ## Task 2
-- [ ] `2-arguments.js`
+- [x] `2-arguments.js`
 
 ## Task 3
 - [ ] `3-value_argument.js`
