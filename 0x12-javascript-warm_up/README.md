@@ -40,4 +40,4 @@
 - [x] `12-object.js`
 
 ## Task 13
-- [ ] `13-add.js`
+- [x] `13-add.js`
