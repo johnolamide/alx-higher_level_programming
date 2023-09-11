@@ -4,15 +4,15 @@ let max = 0;
 let secondMax = 0;
 
 if (argv.length > 2) {
-  let args = [];
+  const args = [];
   for (let i = 2; i < argv.length; i++) {
     args.push(argv[i]);
   }
   max = Math.max(...args);
   if (args.length > 1) {
-    let args2 = []
+    const args2 = [];
     for (let i = 0; i < args.length; i++) {
-      if (args[i] != max) {
+      if (args[i] !== max) {
         args2.push(args[i]);
       }
     }
