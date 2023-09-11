@@ -10,7 +10,7 @@
 - [x] `2-arguments.js`
 
 ## Task 3
-- [ ] `3-value_argument.js`
+- [x] `3-value_argument.js`
 
 ## Task 4
 - [ ] `4-concat.js`
