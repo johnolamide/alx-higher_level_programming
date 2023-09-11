@@ -28,7 +28,7 @@
 - [x] `8-square.js`
 
 ## Task 9
-- [ ] `9-add.js`
+- [x] `9-add.js`
 
 ## Task 10
 - [ ] `10-factorial.js`
