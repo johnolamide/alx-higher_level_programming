@@ -16,7 +16,7 @@
 - [x] `4-concat.js`
 
 ## Task 5
-- [ ] `5-to_integer.js`
+- [x] `5-to_integer.js`
 
 ## Task 6
 - [ ] `6-multi_languages_loop.js`
