@@ -6,7 +6,7 @@ let secondMax = 0;
 if (argv.length > 2) {
   const args = [];
   for (let i = 2; i < argv.length; i++) {
-    args.push(argv[i]);
+    args.push(Number(argv[i]));
   }
   max = Math.max(...args);
   if (args.length > 1) {
