@@ -4,7 +4,7 @@
 - [x] `0-javascript_is_amazing.js`
 
 ## Task 1
-- [ ] `1-multi_languages.js`
+- [x] `1-multi_languages.js`
 
 ## Task 2
 - [ ] `2-arguments.js`
