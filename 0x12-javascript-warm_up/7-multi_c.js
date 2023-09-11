@@ -5,7 +5,7 @@ const message = 'C is fun';
 
 if (isNaN(occurence)) {
   console.log('Missing number of occurences');
-} else { 
+} else {
   for (let i = 0; i < occurence; i++) {
     console.log(`${message}`);
   }
