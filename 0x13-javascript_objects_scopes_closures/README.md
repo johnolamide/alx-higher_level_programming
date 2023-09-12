@@ -31,4 +31,4 @@
 - [x] `9-logme.js`
 
 ## Task 10
-- [ ] `10-converter.js`
+- [x] `10-converter.js`
