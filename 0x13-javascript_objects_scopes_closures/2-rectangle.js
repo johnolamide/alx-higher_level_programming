@@ -1,8 +1,10 @@
 #!/usr/bin/node
 class Rectangle {
   constructor (w, h) {
-    if (Number.isInteger(w) && w > 0 &&
-      Number.isInteger(h) && h > 0) {
+    w = Number(w);
+    h = Number(h);
+    if (!isNaN(w) && w > 0 &&
+      !isNaN(h) && h > 0) {
       this.width = w;
       this.height = h;
     } else {
