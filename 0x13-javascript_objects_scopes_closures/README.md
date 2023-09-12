@@ -1,7 +1,7 @@
 # 0x13 - JavaScript Objects Scopes Closures
 
 ## Task 0
-- [ ] `0-rectangle.js`
+- [x] `0-rectangle.js`
 
 ## Task 1
 - [ ] `1-rectangle.js`
