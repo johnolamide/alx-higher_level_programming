@@ -13,7 +13,7 @@
 - [x] `3-rectangle.js`
 
 ## Task 4
-- [ ] `4-rectangle.js`
+- [x] `4-rectangle.js`
 
 ## Task 5
 - [ ] `5-square.js`
