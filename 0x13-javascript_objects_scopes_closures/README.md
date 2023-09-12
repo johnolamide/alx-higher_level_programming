@@ -28,7 +28,7 @@
 - [x] `8-esrever.js`
 
 ## Task 9
-- [ ] `9-logme.js`
+- [x] `9-logme.js`
 
 ## Task 10
 - [ ] `10-converter.js`
