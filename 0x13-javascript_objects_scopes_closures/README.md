@@ -25,7 +25,7 @@
 - [x] `7-occurences.js`
 
 ## Task 8
-- [ ] `8-esrever.js`
+- [x] `8-esrever.js`
 
 ## Task 9
 - [ ] `9-logme.js`
