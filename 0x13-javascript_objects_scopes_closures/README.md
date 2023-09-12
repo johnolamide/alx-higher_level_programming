@@ -22,7 +22,7 @@
 - [x] `6-square.js`
 
 ## Task 7
-- [ ] `7-occurences.js`
+- [x] `7-occurences.js`
 
 ## Task 8
 - [ ] `8-esrever.js`
