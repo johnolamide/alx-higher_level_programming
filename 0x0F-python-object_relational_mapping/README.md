@@ -7,7 +7,7 @@
 - [x] `1-filter_states.py`
 
 ## Task 2
-- [ ] `2-my_filter_states.py`
+- [x] `2-my_filter_states.py`
 
 ## Task 3
 - [ ] `3-my_safe_filter_states.py`

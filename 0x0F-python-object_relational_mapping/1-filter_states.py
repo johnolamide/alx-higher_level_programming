@@ -6,11 +6,11 @@ import MySQLdb
 
 
 def list_states_with_name(username, password, db_name):
-    """ List states with name startig with N
+    """ List states with name starting with N
         Args:
             username (str): username
             password (str): password
-            db_name (name): database name
+            db_name (str): database name
     """
     try:
         conn = MySQLdb.connect(
@@ -24,7 +24,7 @@ def list_states_with_name(username, password, db_name):
         pass
 
     cur = conn.cursor()
-    query = "SELECT * FROM states WHERE name LIKE 'N%' ORDER BY id ASC"
+    query = "SELECT * FROM states WHERE name LIKE 'N%' ORDER BY states.id ASC"
 
     try:
         cur.execute(query)
