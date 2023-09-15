@@ -25,19 +25,18 @@ def list_states_with_name(username, password, db_name, state_name):
         pass
 
     cur = conn.cursor()
-    query = "SELECT * FROM states WHERE name = %s ORDER BY states.id ASC"
-
+    query = "SELECT * FROM states WHERE name = '{}' ORDER BY states.id ASC"
+    query = query.format(str(state_name))
     try:
-        cur.execute(query, (state_name,))
+        cur.execute(query)
+        results = cur.fetchall()
+        for rows in results:
+            print(rows)
     except MySQLdb.Error:
         cur.close()
-
-    results = cur.fetchall()
-    for rows in results:
-        print(rows)
-
-    cur.close()
-    conn.close()
+    finally:
+        cur.close()
+        conn.close()
 
 
 if __name__ == '__main__':
