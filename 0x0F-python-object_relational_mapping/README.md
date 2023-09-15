@@ -13,7 +13,7 @@
 - [x] `3-my_safe_filter_states.py`
 
 ## Task 4
-- [ ] `4-cities_by_state.py`
+- [x] `4-cities_by_state.py`
 
 ## Task 5
 - [ ] `5-filter_cities.py`
