@@ -40,10 +40,8 @@ def list_states(username, password, database_name):
 if __name__ == '__main__':
     import sys
 
-    if (len(sys.argv) > 4):
+    if (len(sys.argv) == 4):
         user = sys.argv[1]
         passwd = sys.argv[2]
         db = sys.argv[3]
         list_states(user, passwd, db)
-    else:
-        pass
