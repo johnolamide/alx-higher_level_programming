@@ -20,7 +20,7 @@ def list_states(username, password, database_name):
             db=database_name
         )
     except MySQLdb.Error:
-       pass
+        pass
 
     cur = conn.cursor()
     query = "SELECT * FROM states ORDER BY id ASC"
