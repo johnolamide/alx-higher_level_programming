@@ -16,7 +16,7 @@
 - [x] `4-cities_by_state.py`
 
 ## Task 5
-- [ ] `5-filter_cities.py`
+- [x] `5-filter_cities.py`
 
 ## Task 6
 - [ ] `model_state.py`
