@@ -4,7 +4,7 @@
 - [x] `0-select_states.py`
 
 ## Task 1
-- [ ] `1-filter_states.py`
+- [x] `1-filter_states.py`
 
 ## Task 2
 - [ ] `2-my_filter_states.py`
