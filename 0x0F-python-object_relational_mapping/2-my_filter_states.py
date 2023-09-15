@@ -21,7 +21,7 @@ def list_states_with_name(username, password, db_name, state_name):
             port=3306,
             db=db_name
         )
-    except MySQL.Error:
+    except MySQLdb.Error:
         pass
 
     cur = conn.cursor()
@@ -29,7 +29,7 @@ def list_states_with_name(username, password, db_name, state_name):
 
     try:
         cur.execute(query, (state_name,))
-    except MySQL.Error:
+    except MySQLdb.Error:
         cur.close()
 
     results = cur.fetchall()
