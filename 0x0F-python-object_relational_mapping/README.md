@@ -10,7 +10,7 @@
 - [x] `2-my_filter_states.py`
 
 ## Task 3
-- [ ] `3-my_safe_filter_states.py`
+- [x] `3-my_safe_filter_states.py`
 
 ## Task 4
 - [ ] `4-cities_by_state.py`
