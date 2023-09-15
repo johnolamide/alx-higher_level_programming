@@ -1,7 +1,7 @@
 # 0x0F Python Object Relational Mapping
 
 ## Task 0
-- [ ] `0-select_states.py`
+- [x] `0-select_states.py`
 
 ## Task 1
 - [ ] `1-filter_states.py`
