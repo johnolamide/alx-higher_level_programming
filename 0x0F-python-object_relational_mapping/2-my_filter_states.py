@@ -25,7 +25,11 @@ def list_states_with_name(username, password, db_name, state_name):
         pass
 
     cur = conn.cursor()
-    query = "SELECT * FROM states WHERE name = '{}' ORDER BY states.id ASC"
+    query = """
+    SELECT * FROM states
+    WHERE name = '{}'
+    ORDER BY states.id ASC
+    """
     query = query.format(str(state_name))
     try:
         cur.execute(query)
