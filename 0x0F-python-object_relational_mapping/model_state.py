@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/python3
 """ Module contains class definition for the model_state
 """
 from sqlalchemy.ext.declarative import declarative_base
