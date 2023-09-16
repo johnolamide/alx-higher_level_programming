@@ -22,7 +22,7 @@
 - [x] `model_state.py`
 
 ## Task 7
-- [ ] `7-model_state_fetch_all.py`
+- [x] `7-model_state_fetch_all.py`
 
 ## Task 8
 - [ ] `8-model_state_fetch_first.py`
