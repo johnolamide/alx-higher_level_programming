@@ -43,4 +43,4 @@
 - [x] `13-model_state_delete_a.py`
 
 ## Task 14
-- [ ] `model_city.py` `14-model_city_fetch_by_state.py`
+- [x] `model_city.py` `14-model_city_fetch_by_state.py`
