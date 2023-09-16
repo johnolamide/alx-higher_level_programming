@@ -34,7 +34,7 @@
 - [x] `10-model_state_my_get.py`
 
 ## Task 11
-- [ ] `11-model_state_insert.py`
+- [x] `11-model_state_insert.py`
 
 ## Task 12
 - [ ] `12-model_state_update_id_2.py`
