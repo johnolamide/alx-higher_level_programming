@@ -37,7 +37,7 @@
 - [x] `11-model_state_insert.py`
 
 ## Task 12
-- [ ] `12-model_state_update_id_2.py`
+- [x] `12-model_state_update_id_2.py`
 
 ## Task 13
 - [ ] `13-model_state_delete_a.py`
