@@ -25,7 +25,7 @@
 - [x] `7-model_state_fetch_all.py`
 
 ## Task 8
-- [ ] `8-model_state_fetch_first.py`
+- [x] `8-model_state_fetch_first.py`
 
 ## Task 9
 - [ ] `9-model_state_filter_a.py`
