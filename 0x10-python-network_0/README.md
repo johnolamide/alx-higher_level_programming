@@ -21,7 +21,7 @@
 > the server will accept
 
 ## Task 4
-- [ ] `4-header.sh`
+- [x] `4-header.sh`
 > Bash script that takes in a URL as an argument, sends a GET request to
 > the URL, and displays th body of the response
 
