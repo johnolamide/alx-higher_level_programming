@@ -26,7 +26,7 @@
 > the URL, and displays th body of the response
 
 ## Task 5
-- [ ] `5-post_params.sh`
+- [x] `5-post_params.sh`
 > Bash script that takes in a URL, sends a POST request to the passed URL
 > and displays the body of the response
 
