@@ -11,12 +11,12 @@
 > and displays the body of the response
 
 ## Task 2
-- [ ] `2-delete.sh`
+- [x] `2-delete.sh`
 > Bash script that sends a DELETE request to the URL passed as the
 > first argument and displays the body of the response
 
 ## Task 3
-- [ ] `3-methods.sh`
+- [x] `3-methods.sh`
 > Bash script that takes in a URL and displays all HTTP methods
 > the server will accept
 
