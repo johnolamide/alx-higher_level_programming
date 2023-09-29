@@ -8,9 +8,6 @@ import sys
 
 def list_commits(rn, on):
     url = f"https://api.github.com/repos/{on}/{rn}/commits?per_page=10"
-
-    print(url)
-
     response = requests.get(url)
 
     if response.status_code == 200:
