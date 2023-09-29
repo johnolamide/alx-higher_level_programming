@@ -29,7 +29,7 @@
 > and displays the value of the variable `X-Request-Id`
 
 ## Task 6
-- [ ] `6-post_email.py`
+- [x] `6-post_email.py`
 > write a Python script that takes in a URL and an email address
 > and sends a post request
 
