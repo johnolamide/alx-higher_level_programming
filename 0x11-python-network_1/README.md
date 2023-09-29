@@ -38,7 +38,7 @@
 > Write a Python script that takes in a URL and sends a request
 
 ## Task 8
-- [ ] `8-json_api.py`
+- [x] `8-json_api.py`
 > write Python script that takes in a letter and sends a POST request
 
 ## Task 9
