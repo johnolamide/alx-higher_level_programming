@@ -15,7 +15,7 @@
 > and sends a POST request
 
 ## Task 3
-- [ ] `3-error_code.py`
+- [x] `3-error_code.py`
 > write a Python script that takes in a URL sends a request to the URL
 > and displays the body of the response
 
