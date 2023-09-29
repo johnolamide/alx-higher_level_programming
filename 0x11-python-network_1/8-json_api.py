@@ -12,7 +12,7 @@ else:
 
 url = 'http://0.0.0.0:5000/search_user'
 data = {'q': q}
-response = requests.post(url, data)
+response = requests.post(url, data=data)
 
 try:
     json_response = response.json()
