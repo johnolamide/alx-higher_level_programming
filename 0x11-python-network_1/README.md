@@ -1,7 +1,7 @@
 # 0x11 Python Network 1
 
 ## Task0
-- [ ] `0-hbtn_status.py`
+- [x] `0-hbtn_status.py`
 > write a Python script that fetches `https://alx-intranet.hbtn.io/status`
 
 ## Task 1
