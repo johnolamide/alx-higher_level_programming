@@ -20,7 +20,7 @@
 > and displays the body of the response
 
 ## Task 4
-- [ ] `4-hbtn_status.py`
+- [x] `4-hbtn_status.py`
 > write a Python script that fetches `https://alx-intranet.hbtn.io/status`
 
 ## Task 5
