@@ -5,7 +5,7 @@
 > write a Python script that fetches `https://alx-intranet.hbtn.io/status`
 
 ## Task 1
-- [ ] `1-hbtn_header.py`
+- [x] `1-hbtn_header.py`
 > write a Python script that takes in a URL, sends a request to the URL
 > and displays the value of the `X-Request-Id` variable
 
