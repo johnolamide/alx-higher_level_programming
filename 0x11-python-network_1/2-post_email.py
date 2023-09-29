@@ -15,6 +15,6 @@ if len(sys.argv) == 3:
     data = data.encode('ascii')
 
     req = Request(url)
-    with urlopen(req) as response:
+    with urlopen(req, data) as response:
         body = response.read()
         print(body.decode('utf-8'))
