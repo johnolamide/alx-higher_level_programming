@@ -34,7 +34,7 @@
 > and sends a post request
 
 ## Task 7
-- [ ] `7-error-code.py`
+- [x] `7-error-code.py`
 > Write a Python script that takes in a URL and sends a request
 
 ## Task 8
