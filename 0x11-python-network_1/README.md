@@ -42,5 +42,5 @@
 > write Python script that takes in a letter and sends a POST request
 
 ## Task 9
-- [ ] `10-my_github.py`
+- [x] `10-my_github.py`
 > write a python script that takes you GitHub credentials
