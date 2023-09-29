@@ -11,7 +11,10 @@ if len(sys.argv) == 3:
     token = sys.argv[2]
 
     url = 'https://api.github.com/user'
-    response = requests.get(url, auth=(username, token))
+    headers = {
+        "Authorization": f"Basic {username}:{token}"
+    }
+    response = requests.get(url, headers=headers)
 
     if response.status_code == 200:
         print(response.json().get('id'))
