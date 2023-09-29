@@ -6,10 +6,10 @@ import requests
 import sys
 
 
-def list_commits(repository_name, owner_name):
-    url = f"""
-        https://api.github.com/repos/
-        {owner_name}/{repository_name}/commits?per_page=10"""
+def list_commits(rn, on):
+    url = f"https://api.github.com/repos/{on}/{rn}/commits?per_page=10"
+
+    print(url)
 
     response = requests.get(url)
 
@@ -20,9 +20,8 @@ def list_commits(repository_name, owner_name):
             author_name = commit["commit"]["author"]["name"]
             print(f"{sha}: {author_name}")
     else:
-        message = f"""
-            Error: Unable to fetch commits
-             (HTTP Status Code {response.status_code})"""
+        code = response.status_code
+        message = f"Error: Unable to fetch commits (HTTP Status Code {code})"
 
 
 if __name__ == "__main__":
