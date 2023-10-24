@@ -19,4 +19,4 @@
 - [x] `5-request_store.js`
 
 ## Task 6
-- [ ] `6-completed_tasks.js`
+- [x] `6-completed_tasks.js`
