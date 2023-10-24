@@ -13,7 +13,7 @@
 - [x] `3-starwars_title.js`
 
 ## Task 4
-- [ ] `4-starwars_count.js`
+- [x] `4-starwars_count.js`
 
 ## Task 5
 - [ ] `5-request_store.js`
