@@ -4,7 +4,7 @@
 - [x] `0-readme.js`
 
 ## Task 1
-- [ ] `1-writeme.js`
+- [x] `1-writeme.js`
 
 ## Task 2
 - [ ] `2-statuscode.js`
