@@ -1,28 +1,27 @@
 #!/usr/bin/node
 
 const request = require('request');
-const async = require('async');
 const movieId = process.argv[2];
 const url = `https://swapi-api.alx-tools.com/api/films/${movieId}`;
 
-request(url, (error, response, body) => {
-  if (error) {
-    console.error('error:', error);
-    return;
-  }
-  const movie = JSON.parse(body);
-  const characters = movie.characters;
-
-  async.eachSeries(characters, (characterUrl, callback) => {
-    request(characterUrl, (error, response, body) => {
+function getRequest(url) {
+  return new Promise((resolve, reject) => {
+    request(url, function (error, response, body) {
       if (error) {
-        console.error('error:', error);
-        callback();
-        return;
+        reject(error);
+      } else {
+        resolve(JSON.parse(body));
       }
-      const character = JSON.parse(body);
-      console.log(character.name);
-      callback();
     });
   });
-});
+}
+
+getRequest(url).then(movie => {
+  const characters = movie.characters;
+  let promiseChain = Promise.resolve();
+
+  characters.forEach(characterUrl => {
+    promiseChain = promiseChain.then(() => getRequest(characterUrl))
+      .then(character => console.log(character.name));
+  });
+}).catch(console.error);
