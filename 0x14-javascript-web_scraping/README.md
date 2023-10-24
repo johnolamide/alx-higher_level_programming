@@ -7,7 +7,7 @@
 - [x] `1-writeme.js`
 
 ## Task 2
-- [ ] `2-statuscode.js`
+- [x] `2-statuscode.js`
 
 ## Task 3
 - [ ] `3-starwars_title.js`
