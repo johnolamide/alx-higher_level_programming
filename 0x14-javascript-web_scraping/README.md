@@ -10,7 +10,7 @@
 - [x] `2-statuscode.js`
 
 ## Task 3
-- [ ] `3-starwars_title.js`
+- [x] `3-starwars_title.js`
 
 ## Task 4
 - [ ] `4-starwars_count.js`
