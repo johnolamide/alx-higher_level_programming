@@ -16,7 +16,7 @@
 - [x] `4-starwars_count.js`
 
 ## Task 5
-- [ ] `5-request_store.js`
+- [x] `5-request_store.js`
 
 ## Task 6
 - [ ] `6-completed_tasks.js`
