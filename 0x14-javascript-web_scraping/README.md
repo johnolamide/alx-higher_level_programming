@@ -1,7 +1,7 @@
 # 0x14 Javascript Web Scraping
 
 ## Task 0
-- [ ] `0-readme.js`
+- [x] `0-readme.js`
 
 ## Task 1
 - [ ] `1-writeme.js`
