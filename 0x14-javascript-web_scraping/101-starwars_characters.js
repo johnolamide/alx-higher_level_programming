@@ -4,7 +4,7 @@ const request = require('request');
 const movieId = process.argv[2];
 const url = `https://swapi-api.alx-tools.com/api/films/${movieId}`;
 
-function getRequest(url) {
+function getRequest (url) {
   return new Promise((resolve, reject) => {
     request(url, function (error, response, body) {
       if (error) {
