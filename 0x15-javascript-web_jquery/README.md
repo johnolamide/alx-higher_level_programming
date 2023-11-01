@@ -28,4 +28,4 @@
 - [x] `8-script.js`
 
 ## Task 9
-- [ ] `9-script.js`
+- [x] `9-script.js`
