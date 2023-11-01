@@ -4,7 +4,7 @@
 - [x] `0-script.js`
 
 ## Task 1
-- [ ] `1-script.js`
+- [x] `1-script.js`
 
 ## Task 2
 - [ ] `2-script.js`
