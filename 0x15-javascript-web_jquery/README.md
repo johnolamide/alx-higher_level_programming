@@ -1,7 +1,7 @@
 # 0x15 Javascript Web JQuery
 
 ## Task 0
-- [ ] `0-script.js`
+- [x] `0-script.js`
 
 ## Task 1
 - [ ] `1-script.js`
