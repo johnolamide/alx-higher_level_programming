@@ -13,7 +13,7 @@
 - [x] `3-script.js`
 
 ## Task 4
-- [ ] `4-script.js`
+- [x] `4-script.js`
 
 ## Task 5
 - [ ] `5-script.js`
